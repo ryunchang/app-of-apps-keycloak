@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: frontend-with-keycloak
+  name: default-frontend-with-keycloak
   namespace: argocd
   # Add a this finalizer ONLY if you want these to cascade delete.
   finalizers:
@@ -11,7 +11,7 @@ spec:
   project: default
   
   source:
-    repoURL: https://github.com/kt-cloudnative/app-of-apps-keycloak.git
+    repoURL: https://github.com/ryunchang/app-of-apps-keycloak.git
     targetRevision: HEAD
     path: charts/frontend
   
