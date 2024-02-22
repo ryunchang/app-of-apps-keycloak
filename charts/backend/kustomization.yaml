@@ -5,4 +5,4 @@ resources:
 - backend-svc.yaml
 images:
 - name: ghcr.io/ryunchang/springboot_crud_security_nonjwt
-  newTag: "20240222152458"
+  newTag: "20240222152749"
