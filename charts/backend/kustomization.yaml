@@ -4,5 +4,5 @@ resources:
 - backend-deployment.yaml
 - backend-svc.yaml
 images:
-- name: ghcr.io/ryunchang/springboot_crud_security_keycloak
+- name: ghcr.io/ryunchang/springboot_crud_security_nonjwt
   newTag: "20240222150236"
