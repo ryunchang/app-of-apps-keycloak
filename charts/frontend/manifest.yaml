@@ -50,7 +50,7 @@ spec:
 #    secretName: edu-tls
 #    # kubectl create secret tls edu-tls --cert /certs/wildcard-cert.pem --key /certs/wildcard-key.pem -n default
   rules:
-  - host: frontend2.yoonchang.duckdns.org
+  - host: frontend.yoonchang.duckdns.org
     http:
       paths:
       - path: /
